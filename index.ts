@@ -15,3 +15,26 @@
 //     console.log(n-i);
 //     i++
 // }
+//3. Write a ts program to print all alphabets from a to z. - using while loop
+///////****** couldn't do******////////
+
+// var i:number=0;
+// while (i<27) {
+//     console.log((i));
+//     i++
+    
+// }
+
+//4. Write a ts program to print all even numbers between 1 to 100. - using while loop
+
+var i:number=0;
+var n:number=100;
+while (i<n) {
+    if(i%2==0){
+        console.log( i,"is Even");
+       
+    }  
+    i++;      
+       
+   
+}
