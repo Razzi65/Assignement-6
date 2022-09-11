@@ -78,10 +78,48 @@
 // }
 // console.log(sum);
 //6. Write a ts program to find sum of all natural numbers between 1 to n.
-var a = prompt("write a number");
-var b = Number(a);
-var sum = 0;
-for (var i = 0; i <= b; i++) {
-    sum += i;
+// var a:string|null=prompt("write a number")
+// var b:number=Number(a)
+// var sum = 0;
+//     for (var i = 0; i<=b; i++){
+//         sum += i;
+//     }
+//     console.log(sum);
+//11. Write a ts program to find first and last digit of a number.
+// function finder (num:number) {
+// var b:string=num.toString();
+// var lastnum:number=0;
+// for (var i=0;i<=b.length;i++) {
+//     if(i==b.length){
+//     lastnum=i;
+//     }
+//     }
+//    return console.log("first digit is", b[0] , "last digit is", b[lastnum-1]);
+// }
+// var d=finder(4664649)
+//12. Write a ts program to find sum of first and last digit of a number.
+// var a:number=656567
+// var b:string=a.toString()
+// var c:number=0;
+// for(var i=0;i<=b.length;i++) {
+//     if(i==b.length) {
+//         c=i;
+//     }
+// }
+// console.log(Number(b[0])+Number(b[(c-1)]));
+//13. Write a ts program to swap first and last digits of a number.
+var a = 98954545453;
+var b = a.toString();
+var first = Number(b[0]);
+var last = 0;
+var mid = b[1];
+for (var i = 0; i <= b.length; i++) {
+    if (i == b.length) {
+        last = Number(b[i - 1]);
+    }
+    if (i > 2 && i < (b.length)) {
+        mid += (b[i - 1]);
+    }
 }
-console.log(sum);
+var final = Number(last + mid + first);
+console.log(final);
