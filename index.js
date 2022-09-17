@@ -197,6 +197,12 @@
 // 21. Write a ts program to find power of a number using for loop.
 // 22. Write a ts program to find all factors of a number.
 // 23. Write a ts program to calculate factorial of a number.
+var a = 8;
+var b = 1;
+for (var i = 1; i <= 5; i++) {
+    b *= i;
+}
+console.log(b);
 // 24. Write a ts program to find HCF (GCD) of two numbers.
 // 25. Write a ts program to find LCM of two numbers.
 // 26. Write a ts program to check whether a number is Prime number or not.
