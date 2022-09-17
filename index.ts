@@ -255,25 +255,25 @@
 
 // 17. Write a ts program to check whether a number is palindrome or not.
 
-var a:number=4567
-var b:string=a.toString()
-var bb:number=b.length
-var c:string=""
-var d:string="" 
+// var a:number=123321
+// var b:string=a.toString()
+// var bb:number=b.length-1
+// var c:string=""
+// var d:string="" 
 
-for(var i=0;i<=b.length;i++) {
+// for(var i=0;i<=b.length;i++) {
 
-    if (i!=b.length){
-    c += (b[i]) }
+//     if (i!=b.length){
+//     c += (b[i]) }
 
-    if (i<(b.length))
-     {
-    d += (b[bb--])
-    
- }}
-console.log(c);
-console.log(d);
-
+//     if (i<(b.length))
+//      {
+//     d += (b[bb--])
+//      }}
+//  if (c!=d){
+//     console.log("Number is not Palindrome Number");
+//     }
+//     else console.log("Number is Palindrome")
 
 
 

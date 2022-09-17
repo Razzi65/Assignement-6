@@ -172,21 +172,22 @@
 //      }
 //      console.log(d)
 // 17. Write a ts program to check whether a number is palindrome or not.
-var a = 4567;
-var b = a.toString();
-var bb = b.length;
-var c = "";
-var d = "";
-for (var i = 0; i <= b.length; i++) {
-    if (i != b.length) {
-        c += (b[i]);
-    }
-    if (i < (b.length)) {
-        d += (b[bb--]);
-    }
-}
-console.log(c);
-console.log(d);
+// var a:number=123321
+// var b:string=a.toString()
+// var bb:number=b.length-1
+// var c:string=""
+// var d:string="" 
+// for(var i=0;i<=b.length;i++) {
+//     if (i!=b.length){
+//     c += (b[i]) }
+//     if (i<(b.length))
+//      {
+//     d += (b[bb--])
+//      }}
+//  if (c!=d){
+//     console.log("Number is not Palindrome Number");
+//     }
+//     else console.log("Number is Palindrome")
 // 18. Write a ts program to find frequency of each digit in a given integer.
 // 19. Write a ts program to enter a number and print it in words.
 // 20. Write a ts program to print all ASCII character with their values.
