@@ -189,21 +189,45 @@
 //     }
 //     else console.log("Number is Palindrome")
 // 18. Write a ts program to find frequency of each digit in a given integer.
+// var a:number=565675
+// var b:string=a.toString()
+// var c:string=""
+// for (var i=0;i<=b.length;i++) {
+//     if(b[0] == b[i] ) {
+//     }
+// }
+// console.log("frequency of ", b[0], c);
 // 19. Write a ts program to enter a number and print it in words.
 // 20. Write a ts program to print all ASCII character with their values.
-// var a:string="555487887";
+// var a:string="Abc";
 // for (var i=0; i<a.length;i++){
 // console.log(a.charCodeAt(i))}
 // 21. Write a ts program to find power of a number using for loop.
+// var a:number=3;
+// var power:number=1;
+// for (var i=1;i<=a; i++) {
+//     power *=a;
+//     console.log(power);
+//     }
+//     console.log(power);
 // 22. Write a ts program to find all factors of a number.
 // 23. Write a ts program to calculate factorial of a number.
-var a = 8;
-var b = 1;
-for (var i = 1; i <= 5; i++) {
-    b *= i;
-}
-console.log(b);
+// var a:number=8
+// var b:number=1
+// for (var i=1; i<=5;i++) {
+//     b*=i;
+// }
+// console.log(b)
 // 24. Write a ts program to find HCF (GCD) of two numbers.
+// var a:number=13
+// var a2:number=19
+// var b:string=""
+// for(var i=1;i<a;i++){
+//     if(a%i==0 && a2%i==0) {
+//         b=i.toString()
+//     }
+// }
+// console.log(b);
 // 25. Write a ts program to find LCM of two numbers.
 // 26. Write a ts program to check whether a number is Prime number or not.
 // 27. Write a ts program to print all Prime numbers between 1 to n.
@@ -231,9 +255,27 @@ console.log(b);
 // 49. Write a ts program to convert Hexadecimal to Octal number system.
 // 50. Write a ts program to convert Hexadecimal to Decimal number system.
 // 51. Write a ts program to print Pascal triangle upto n rows.
-// var a:number[]=[5,6,8,10]
-// function sum():number {
-//     return a[0]
+// function myReplace(text:string, replaceTo:string, replacewith:string):string {
+//     for (var i=2;i<=text.length;i++) {
+//         if (text="love") {
+//             break;
+//         }
+//         return "i like pakistan"; 
+//     }
+//     }
+// function rplc (text:string,replace:string,replacewith:string): string{
+// var text:string= "i love pakistan"
+// var replace:string=text.slice(2,6);
+// var first:string="";
+// var last:string="";
+// var replacewith:string="like ";
+// for(let i=0;i<=text.length;i++) {
+//      if (i < 2  ) {
+//          first+=text[i]
+//      }
+//      if (i > 6 && i<text.length ) {
+//          last+=text[i]
+//      }
 // }
-// var c= a.map(sum)
-// console.log(c);
+// return (first+replacewith+last);
+// rplc ("i love pakistan","like","love")
